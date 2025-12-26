@@ -1,0 +1,17 @@
+local placeId = game.PlaceId
+local loadstrings = {
+    [17367230431] = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/BA",
+    [3203685552] = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/BA",
+    [127099886596040] = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/KC"
+}
+
+if loadstrings[placeId] then
+    loadstring(game:HttpGet(loadstrings[placeId]))()
+else
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "OMICRON HUB",
+        Text = "This script doesn't work here. ",
+        Icon = "rbxassetid://100709507402385",
+        Duration = 5
+    })
+end
