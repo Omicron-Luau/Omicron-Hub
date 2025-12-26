@@ -1,3 +1,5 @@
+-- Discord: https://discord.gg/SqpSyrZYsb
+
 local placeId = game.PlaceId
 local loadstrings = {
     [17367230431] = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/BA",
