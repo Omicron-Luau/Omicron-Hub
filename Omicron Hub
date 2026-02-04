@@ -15,7 +15,7 @@ else
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "OMICRON HUB",
         Text = "This script doesn't work here.",
-        Icon = "rbxassetid://100709507402385",
+        Icon = "rbxassetid://109139413418271",
         Duration = 5
     })
 end
