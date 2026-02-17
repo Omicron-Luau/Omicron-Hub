@@ -1,12 +1,31 @@
 -- Discord: https://discord.gg/SqpSyrZYsb
 
 local placeId = game.PlaceId
+
+local urls = {
+    BA  = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/BA",
+    QL  = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/QL",
+    KC  = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/KC",
+    A51 = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/A51",
+}
+
 local loadstrings = {
-    [17367230431] = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/BA",
-    [3203685552] = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/BA",
-    [1450425732] = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/QL",
-    [127099886596040] = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/KC",
-    [35397735] = "https://raw.githubusercontent.com/Omicron-Luau/Omicron-Hub/refs/heads/main/QL"
+    [17367230431]      = urls.BA,
+    [3203685552]       = urls.BA,
+    [1450425732]       = urls.QL,
+    [127099886596040]  = urls.KC,
+    [35397735]         = urls.QL,
+
+    [2092166489] = urls.A51,
+    [5740483929] = urls.A51,
+    [3182083477] = urls.A51,
+    [2092167559] = urls.A51,
+    [4678052190] = urls.A51,
+    [1076129670] = urls.A51,
+    [2675280735] = urls.A51,
+    [6054929905] = urls.A51,
+    [3508248007] = urls.A51,
+    [4631179692] = urls.A51,
 }
 
 if loadstrings[placeId] then
